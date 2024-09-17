@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body{
+    width: 100%;
+    height: 100%;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container{
+    background-image: url(https://d1csarkz8obe9u.cloudfront.net/posterpreviews/pop-music-album-cover-design-template-%281%29-f3b873e61465d4524bb99bf02a56c649_screen.jpg?ts=1706311822);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: rgba(0,0,0,0.9);
+    height: 100%;
+    width: 100%;
+}
+
+.overlay{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.15);
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav > h1{
+    color: white;
+    font-size: 20px;
+    font-weight: 800;
+}
+
+nav >  .btn{
+    padding: 5px 70px;
+    margin: 2px 5px;
+}
+
+ nav > .btn input{
+    border: none;
+    background-color:white;
+    text-align: right;
+    font-size: 15px; 
+    font-weight: 200;
+    padding:5px;
+    border-radius: 5px;
+}
+
+.left{
+    width: 400px;
+    height: 300px;
+    /* background-color: black; */
+    margin-top: 120px;
+    margin-left: 25px;
+}
+
+.left > h1{
+    color: white;
+    font-size: 50px;
+    text-align: center;
+    font-weight: 900;
+}
+
+.left > button{
+    padding: 8px 25px;
+    margin: 10px;
+    border: none;
+    border-radius: 15px;
+    font-size: 15px;
+    font-weight: 700;
+    transition: 1s all ese;
+}
+
+.left > button:hover{
+    cursor: pointer;
+    background-color: red;
+}
+
+.blue{
+    background-color: blue;
+}
